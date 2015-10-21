@@ -7,6 +7,8 @@ import android.view.MenuItem;
 import android.widget.Button;
 import android.view.View;
 import android.widget.CheckBox;
+import android.widget.Toast;
+import com.example.dell.hardlibrary.*;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -99,6 +101,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
+    /* init methods  open leds
+     * button/checkbox  ledctrl
+     */
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
